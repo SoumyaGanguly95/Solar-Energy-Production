@@ -14,19 +14,9 @@ Digital Elevation Model (DEM) of the region
 Land use data of the region
 Solar irradiance data of the region
 Data set details:
-
-Content of the dataset: A dataset containing information on the areas suitable for solar power energy generation in a specific region.
-Approach to store and manage data: The data will be stored in a database management system. The database management system will be used to store and manage the DEM, land use data, and solar irradiance data.
-Structure of the dataset: The dataset will contain the following information for each area:
-Area name/ID
-Terrain information (slope, aspect, elevation)
-Land use information (e.g. agricultural, forest, urban)
-Solar irradiance information (e.g. annual average solar irradiance, direct normal irradiance, diffuse horizontal irradiance)
-Potential for solar power energy generation (e.g. high, medium, low)
-Suitable encoding for the data: The data will be encoded in JSON format.
-Generating the content of the dataset: The data will be generated using synthetic data based on the characteristics of the region.
-Setting up a data access service for the data: The data access service will be set up using a GeoServer instance on a local computer. The data will be imported into the GeoServer instance using ETL tools.
-Importing the dataset into the data access service: The dataset will be imported into the GeoServer instance using ETL tools.
+[1] Name
+[2] Area
+[3] Solar Mean
 
 ## Client application details:
 
